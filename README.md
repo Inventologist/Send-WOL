@@ -11,7 +11,6 @@
  
  ## Example command
  When using the -GetFromList, it will pull from the MachineName.csv file.  There is an entry in there for "simone-pc"</br>
- Command:</br>
- ```powershell
+  ```powershell
  Send-WOL -GetFromList -MachineName simone-pc
  ```
