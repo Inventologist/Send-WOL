@@ -7,7 +7,7 @@
  
  A lot of people state the you do not need the IP to wake up a computer.  I technically agree, but I have come across a couple of cases (Older PC/Workstation) that HAD to be in Standby/Hibernation to we woke up.  These cases ONLY worked with a script that pushed the packet to its IP address.  It wouldnt work with just the MAC.
  
- #### I'll keep looking into this and try it on different kinds of PCs as I get them in for repair.  Stay tuned for updates.
+ ### I'll keep looking into this and try it on different kinds of PCs as I get them in for repair.  Stay tuned for updates.
  
  If you run powercfg -a on a computer you are having difficulty with, you can find out what power states it supports.</br>
  Officially, Microsoft supports WOL from sleep (S3) or hibernate (S4).  Your motherboard manufacturer may support other modes in the BIOS.  Update your BIOS and check it out.
